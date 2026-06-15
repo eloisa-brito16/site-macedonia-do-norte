@@ -9,10 +9,18 @@
     width: 1440px;
     height: 150px;
     background-color: rgb(129, 19, 41);
-    margin-inline-start: 160px;
+    margin-left: 500px;
 }
 .aside{
     width: 160px;
-    height: 615px;
+    height: 625px;
     background-color: rgb(168, 61, 82);
+    bottom: 100px;
+}
+.img{
+    position: relative;
+    width: 150px;
+    height: 120px;
+    bottom: 160px;
+    border-radius: 15px;
 }
