@@ -7,6 +7,7 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  background-color: #ffefd4;
 }
 
 .header{
@@ -14,20 +15,23 @@
     height: 152px;
     background-color: #9b3535;
     margin-left: 500px;
-      margin-inline-start: -160px;
+    margin-inline-start: -160px;
 }
+
 .aside{
-    width: 160px;
-    height: 600px;
+    width: 170px;
+    height: 1100px;
     background-color: #bb3e3e;
-    margin-top: -37px;
+    margin-top: -187px;
 }
-.img{
+
+.logo{
     position: relative;
     width: 150px;
     height: 120px;
-    top: -735px;
-    border-radius: 150px;
+    bottom: 1230px;
+    margin-left: 12px;
+    border-radius: 10px;
 }
 
 .h1{
@@ -42,22 +46,83 @@
     display:flex;
     gap: 10px;
     flex-direction: column;
+    background-color:#bb3e3e;
+    margin-top: 150px;
+    color: white;
 }
+
 .happy{
-    background-color:#b04545;
+    background-color:#750202;
+    border-radius: 10px;
+    padding: 10px 32px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 25px;
 }
+
 .pacotes{
-     background-color:#9b3535;
+     background-color:#750202;
+     border-radius: 10px;
+     padding: 10px 50px;
+     margin: auto;
 }
+
 .promo{
-     background-color:#9b3535;
+     background-color:#750202;
+     border-radius: 10px;
+     padding: 10px 38px;
+     margin: auto;
 }
+
 .passagens{
-     background-color:#9b3535;
+     background-color: #750202;
+     border-radius: 10px;
+     padding: 10px 39px;
+     margin: auto;
 }
+
 .hospedagens{
-     background-color:#9b3535;
+     background-color:#750202;
+     border-radius: 10px;
+     padding: 10px 29px;
+     margin: auto;
 }
+
 .mais{
-     background-color:#9b3535;
+     background-color:#750202;
+     border-radius: 10px;
+     padding: 10px 62px;
+     margin: auto;
+}
+
+.link{
+    text-decoration: none;
+    background-color:#750202;
+    color: white;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+}
+
+.mace{
+    background-color: #d8b77f;
+    padding: 10px;
+}
+
+.img{
+    max-width: 50%;
+    min-width: 40%;
+    height: 55%;
+}
+
+.servia{
+     background-color: #d8b77f;
+    padding: 10px;
+}
+
+.grecia{
+     background-color: #d8b77f;
+    padding: 10px;
 }
