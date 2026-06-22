@@ -12,10 +12,10 @@
 
 .header{
     width: 1681px;
-    height: 152px;
+    height: 155px;
     background-color: #9b3535;
     margin-left: 500px;
-    margin-inline-start: -160px;
+    margin-inline-start: -96px;
 }
 
 .aside{
@@ -34,13 +34,26 @@
     border-radius: 10px;
 }
 
+.divbutton{
+    position:relative;
+    bottom: 1000px;
+    margin-left: -30px;
+    width: 30px;
+    margin-top: -40px;
+    bottom: 1164px;
+}
+
 .h1{
-    position: relative;
-    margin-inline-start: 500px;
     background-color:#9b3535;
-    top: -100px; 
     color: aliceblue;
     font-size: xx-large;
+}
+
+.encontre{
+    position: relative;
+    margin-inline-start: 500px;
+    top: -100px; 
+    margin-left: 550px;
 }
 
 .barra{
@@ -108,13 +121,12 @@
     text-align: center;
     position: relative;
     margin-top: 100px;
-    margin-bottom: -110px;
+    bottom: 1200px;
+    margin-left: 500px;
 }
 
 .h2{
-    position: relative;
     color: aliceblue;
-    bottom: 1250px;
     background-color: #750202;
     padding: 15px 25px;
     border-radius: 15px;
@@ -124,7 +136,7 @@
 
 .container{
     display: flex;
-    margin-left: 200px;
+    margin-left: 190px;
     gap: 20px;
     margin-top: -900px;
     position: relative;
@@ -154,7 +166,7 @@
     background-color: #bb3e3e;
     position: relative;
     margin: auto;
-    right: 230px;
+    right: 237px;
     bottom: 330px;
     top: -245px;
     padding-right: 7px;
@@ -172,6 +184,16 @@
     width: 200px;
     white-space: nowrap;
     background-color: #bb3e3e;
+}
+
+.sub{
+   position: relative;
+   margin-bottom: 100px;
+}
+
+.divp{
+    color: white;
+
 }
 
 .linkm{
@@ -228,6 +250,7 @@
     margin: auto;
     position: relative;
     bottom: 205px;
+    margin-right: 10px;
 }
 
 .greimg{
@@ -244,7 +267,7 @@
     background-color: #bb3e3e;
     position: relative;
     margin: auto;
-    top: -390px;
+    top: -415px;
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 14px;
@@ -262,21 +285,24 @@
 }
 
 .button{
-    position: relative;
+   
     margin-left: 600px;
-    bottom: 1163px;
     border-radius: 20px;
     padding: 10px;
     color:aliceblue;
     background-color: darkgray;
 }
 
-.caixa{
+.divcaixa{
     position: relative;
-    width: 250px;
-    height: 30px;
     bottom: 1200px;
     margin-left: 700px;
+    
+}
+
+.caixa{
+    height: 30px;
     border-radius: 15px;
+    width: 250px;
     border-color: black;
 }
