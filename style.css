@@ -3,7 +3,7 @@
 *{
     padding: 0%;
     margin: 0%;
-     font-family: "Quicksand", sans-serif;
+    font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
@@ -106,6 +106,9 @@
 .divh2{
     width: 450px;
     text-align: center;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: -110px;
 }
 
 .h2{
@@ -129,23 +132,22 @@
 
 .mace{
     display: flex;
+    position: relative;
     background-color: #d8b77f;
-    padding: 40px 10px;
-    margin: auto;
+    padding: 20px;
+    margin-bottom: 200px;
     margin-top: -200px;
     border-radius: 50px;
-    position: relative;
-    margin-bottom: 130px;
 }
 
 .maceimg{
-    max-width: 50%;
+    max-width: 65%;
     min-width: 70%;
-    max-height: 50%;
+    max-height: 63%;
     min-height: 20%;                                                                
     margin-left: 65px;
     border-radius: 20px;
-   margin-top: 50px;
+   margin-top: 65px;
 }
 
 .titulo1{
@@ -154,6 +156,7 @@
     margin: auto;
     right: 230px;
     bottom: 330px;
+    top: -245px;
     padding-right: 7px;
     padding-left: 60px;
     padding-bottom: 10px;
@@ -171,6 +174,11 @@
     background-color: #bb3e3e;
 }
 
+.linkm{
+    text-decoration: none;
+    color: aliceblue;
+}
+
 .servia{
     background-color: #d8b77f;
     padding: 50px;
@@ -181,11 +189,12 @@
 }
 
 .serimg{
-    width: 290px;
-    height: 305px;
+    width: 300px;
+    height: 335px;
     margin-left: 10px;
     margin-top: 50px;
     margin-bottom: 55px;
+    bottom: 90px;
     border-radius: 20px;
 }
 
@@ -194,9 +203,10 @@
     position: relative;
     margin: auto;
     bottom: 470px;
+    top: -460px;
     padding-bottom: 10px;
     padding-top: 10px;
-    border-radius: 15px;
+    border-radius: 14px;
     width: 100px;
     padding-right: 15px;
     color: aliceblue;
@@ -217,30 +227,56 @@
     border-radius: 50px;
     margin: auto;
     position: relative;
-    bottom: 240px;
+    bottom: 205px;
 }
 
 .greimg{
-    max-width: 70%;
+    max-width: 80%;
     min-width: 50%;
-    height: 60%;
-    margin-left: 55px;
+    max-height: 30%;
+    min-height: 50%;
+    margin-left: 40px;
     border-radius: 20px;
     top: 250px;
+}
+
+.titulo3{
+    background-color: #bb3e3e;
+    position: relative;
+    margin: auto;
+    top: -390px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 14px;
+    width: 100px;
+    padding-right: 15px;
+    color: aliceblue;
+    font-size: large;
+}
+
+.p3{
+    width: 100px;
+    background-color: #bb3e3e;
+    text-align: center;
+    padding-left: 7px;
 }
 
 .button{
     position: relative;
     margin-left: 600px;
-    bottom: 1100px;
+    bottom: 1163px;
     border-radius: 20px;
     padding: 10px;
-    
+    color:aliceblue;
+    background-color: darkgray;
 }
 
 .caixa{
     position: relative;
     width: 250px;
-    bottom: 1130px;
-    margin-left: 880px;
+    height: 30px;
+    bottom: 1200px;
+    margin-left: 700px;
+    border-radius: 15px;
+    border-color: black;
 }
