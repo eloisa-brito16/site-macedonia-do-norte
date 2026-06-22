@@ -10,7 +10,6 @@
   background-color: #ffefd4;
 }
 
-
 .header{
      background-color: #9b3535;
     height: 100px;
@@ -48,7 +47,7 @@
 
 .divimg{
     background-color: #d8b77f;
-    width: 300px;
+    width: 350px;
     margin-left: 100px;
     padding: 30px;
     border-radius: 15px;
@@ -57,29 +56,31 @@
 
 .img{
     margin: auto;
+    width: 350px;
     height: 300px;
-    margin-left: 35px;
+    
     border-radius: 15px;
 }
 
 .p{
     background-color: #750202;
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     text-align: center;
-    white-space: nowrap;
     margin-left: -15px;
-   margin-top: 10px;
-   margin-bottom: -10px;
-    width: 330px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: -15px;
+    width: 382px;
     border-radius:15px;
+
 }
 
 .txt{
     position: relative;
     margin-left: 620px;
     margin-right: 300px;
-    bottom: 420px;
+    bottom: 422px;
 }
 
 .txtestilo{
