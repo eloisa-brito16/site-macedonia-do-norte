@@ -25,6 +25,17 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
+.logo{
+  position: relative;
+   width: 150px;
+    height: 120px;
+    bottom: 6px;
+    top: 6px;
+    margin-left: -25px;
+    border-radius: 10px;
+    background-color: #9b3535;
+}
+
 .logo-circle {
   position: relative;
 }
@@ -119,6 +130,7 @@ body {
     border-radius:15px;
     padding: 5px;
 }
+
 
 .image-box {
     width: 100%;
